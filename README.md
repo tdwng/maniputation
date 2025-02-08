@@ -60,12 +60,6 @@
 
    VD : Ta phát nhạc bằng file **.mp3**, thì cái ta sử dụng để chạy file **.mp3** là một **chương trình**, khi ta chạy file **.mp3** thì cái mà đang sử dụng tài nguyên máy tính sẽ là **tiến trình**.
 
-### b) Xem, quản lí, kill process :
-
-   Chúng ta có thể dùng lệnh **top** trên terminal để hiển thị danh sách các process, tuy nhiên để nhìn cho đẹp thì nên dùng **htop**, tuy nhiên phải tải vể bằng lệnh **apt install htop**. Sau khi dùng lệnh **htop**, ta có một bảng các process giống như hình :
-
-   ![](Process_list.png)
-
    Tiến trình trong linux được định danh bằng Process ID ( PID )
 
    Một process sẽ có lượng bộ nhớ được cấp phát chia làm nhiều phần khác nhau gọi là **segment** ( phân đoạn vùng nhớ )
@@ -80,13 +74,15 @@
 
    #### +> Background Process :
 
-   Tiến trình chạy mà không kết nối với thiết bị input. 
+   Tiến trình chạy mà không kết nối với thiết bị input ( trừ khi bản thân nó có yêu cầu kết nối ). 
 
    Có thể bắt đầu trước khi background process khác end.
 
    Để bắt đầu một background process chỉ cần thêm kí tự **&** vào cuối lệnh.
 
+### b) Xem, quản lí, kill process :
 
+   Chúng ta có thể dùng lệnh **top** trên terminal để hiển thị danh sách các process, tuy nhiên để nhìn cho đẹp thì nên dùng **htop**, tuy nhiên phải tải vể bằng lệnh **apt install htop**. Sau khi dùng lệnh **htop**, ta có một bảng các process giống như hình :
 
-
+   ![](Process_list.png)
 
