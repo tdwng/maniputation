@@ -78,7 +78,15 @@
 
    Có thể bắt đầu trước khi background process khác end.
 
-   Để bắt đầu một background process chỉ cần thêm kí tự **&** vào cuối lệnh. 
+   #### +> Quản lí background process :
+
+   Để bắt đầu một background process chỉ cần thêm kí tự **&** vào cuối lệnh. Vd : **ping 8.8.8.8 &**
+
+   Có thể dùng jobs để liệt kê các background process, ví dụ như trong ảnh :
+
+   ![](error_perm.png)
+
+   Có thể thay đổi 
 
 ### b) Xem, quản lí, kill process :
 
@@ -91,7 +99,7 @@
    ![](ps_aux.png)
 
    #### b2) Kill process ( Dừng tiến trình, ngắt tiến trình ):
-   
+
    Có thể dừng / tắt process bằng các lệnh như **kill < PID >**, nếu không được, try **kill -s 9 < PID >**; hoặc có thể tắt toàn bộ các tiến trình có một loại tên giống nhau bằng cách dùng lệnh **killall -s 9 < target name >** hoặc **pkill -s 9 < target name >** :v
 
 
