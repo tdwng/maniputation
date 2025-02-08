@@ -82,7 +82,9 @@
 
 ### b) Xem, quản lí, kill process :
 
-   Chúng ta có thể dùng lệnh **top** trên terminal để hiển thị danh sách các process, tuy nhiên để nhìn cho đẹp thì nên dùng **htop**, tuy nhiên phải tải vể bằng lệnh **apt install htop**. Sau khi dùng lệnh **htop**, ta có một bảng các process giống như hình :
+   Chúng ta có thể dùng lệnh **ps aux** và **top** trên terminal để hiển thị danh sách các process, tuy nhiên để nhìn cho đẹp thì nên dùng **htop**, tuy nhiên phải tải vể bằng lệnh **apt install htop**. Sau khi dùng lệnh **htop**, ta có một bảng các process giống như các hình :
 
    ![](Process_list.png)
+
+   ![](ps_aux.png)
 
