@@ -8,4 +8,5 @@
 
    *Trong linux, file được tổ chức theo kiểu cây thư mục, nghĩa là tất cả các file, thư mục thuộc hệ thống đều nằm trong một nút gốc (root)*
 
-   *Ta có thể dùng các lệnh trên terminal linux ví dụ như* **ls**,** ls -l** *( nếu muốn cụ thể hơn)* để liệt kê các file 
+   *Ta có thể dùng các lệnh trên terminal linux ví dụ như* **ls**,** ls -l** *( nếu muốn cụ thể hơn) để liệt kê các file.*
+   
