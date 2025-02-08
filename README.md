@@ -12,6 +12,13 @@
 
    Linux có nhiều loại file, bao gồm **file thường**, **thư mục**, **file thiết bị**, **file liên kết**, **socket file** và **pipe file**.
 
+### b) Cấu trúc file '/' trong linux ( không biết diễn tả thế nào về cái thư mục gốc nên để tạm là '/' ):
+
+   Thư mục gốc trong linux là **root**, thường được hiển thị với duy nhất kí tự **/**, từ thư mục này nó sẽ phân nhánh thành nhiều thư mục con khác, thường sẽ như hình : 
+
+   ![](image_1.png)
+
+
 
 
 
