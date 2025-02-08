@@ -14,7 +14,7 @@
 
 ### b) Cấu trúc file '/' trong linux ( không biết diễn tả thế nào về cái thư mục gốc nên để tạm là '/' ):
 
-   Thư mục gốc trong linux là **root**, thường được hiển thị với duy nhất kí tự **/**, từ thư mục này nó sẽ phân nhánh thành nhiều thư mục con khác, thường sẽ như hình minh họa  : ( Cùng là linux thì phần lớn sẽ không khác nhau mấy, dưới đây là của rasberry pi 4 model b, em xin phép không dùng ubuntu vm vì đợi nó start được thì em đã ăn xong 2 gói mì -.- )
+   Thư mục gốc trong linux là **root**, thường được hiển thị với duy nhất kí tự **/**, từ thư mục này nó sẽ phân nhánh thành nhiều thư mục con khác, thường sẽ như hình minh họa  : ( Cùng là linux thì phần lớn sẽ không khác nhau mấy, dưới đây là của rasberry pi 4 model b, trong bài sẽ có những chỗ dùng cả wsl, em xin phép không dùng vm trong write up này vì đợi nó start được thì em đã ăn xong 2 gói mì, quá tốn thời gian -.- )
 
    ![](image_1.png)
 
@@ -47,15 +47,24 @@
    **/tmp** : Chứa file tạmp thời
 
    **/usr** : Chứa phần mềm, thư viện cho user
-   
+
    **/var** : Chứa cache data, log data,... ( nói chung là dữ liệu thay đổi thường xuyên )
 
    Trên hình còn có một số thư mục như **/lost+found**, **/sys**, các thư viện này phục vụ mục đích khác nhau, như **/lost+found** check lại thiết bị khi ăn crash, check lỗi tập tin ; **/sys** chứa thông tin phần cứng, giao tiếp kernel,... ( Đoạn này lấy từ ChatGPT )
 
+## 2. Tiến trình của chương trình trên linux :
 
+### a) Tiến trình ( process ) là gì? 
 
+   Tiến trình nghĩa là một chương trình đang chạy trên os.
 
+   VD : Ta phát nhạc bằng file **.mp3**, thì cái ta sử dụng để chạy file **.mp3** là một **chương trình**, khi ta chạy file **.mp3** thì cái mà đang sử dụng tài nguyên máy tính sẽ là **tiến trình**.
 
+### b) Xem, quản lí, kill process :
 
+   Chúng ta có thể dùng lệnh **top** trên terminal để hiển thị danh sách các process, tuy nhiên để nhìn cho đẹp thì nên dùng **htop**, tuy nhiên phải tải vể bằng lệnh **apt install htop**. Sau khi dùng lệnh **htop**, ta có một bảng các process giống như hình :
+
+   ![](Process_list.png)
 
    
+
