@@ -78,13 +78,24 @@
 
    Có thể bắt đầu trước khi background process khác end.
 
-   Để bắt đầu một background process chỉ cần thêm kí tự **&** vào cuối lệnh.
+   Để bắt đầu một background process chỉ cần thêm kí tự **&** vào cuối lệnh. 
 
 ### b) Xem, quản lí, kill process :
+
+   #### b1) Xem process, quản lí process : 
 
    Chúng ta có thể dùng lệnh **ps aux** và **top** trên terminal để hiển thị danh sách các process, tuy nhiên để nhìn cho đẹp thì nên dùng **htop**, tuy nhiên phải tải vể bằng lệnh **apt install htop**. Sau khi dùng lệnh **htop**, ta có một bảng các process giống như các hình :
 
    ![](Process_list.png)
 
    ![](ps_aux.png)
+
+   #### b2) Kill process ( Dừng tiến trình, ngắt tiến trình ):
+   
+   Có thể dừng / tắt process bằng các lệnh như **kill < PID >**, nếu không được, try **kill -s 9 < PID >**; hoặc có thể tắt toàn bộ các tiến trình có một loại tên giống nhau bằng cách dùng lệnh **killall -s 9 < target name >** hoặc **pkill -s 9 < target name >** :v
+
+
+
+
+
 
