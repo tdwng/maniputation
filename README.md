@@ -66,5 +66,27 @@
 
    ![](Process_list.png)
 
-   
+   Tiến trình trong linux được định danh bằng Process ID ( PID )
+
+   Một process sẽ có lượng bộ nhớ được cấp phát chia làm nhiều phần khác nhau gọi là **segment** ( phân đoạn vùng nhớ )
+
+   Process chia làm 2 loại : 
+
+   #### +> Foreground Process :
+
+   Tiến trình loại này nhận input từ bàn phím và cho ra output ở màn hình.
+
+   Không thể chạy một foreground process khác cho đến khi process cũ end hoặc bị kill.
+
+   #### +> Background Process :
+
+   Tiến trình chạy mà không kết nối với thiết bị input. 
+
+   Có thể bắt đầu trước khi background process khác end.
+
+   Để bắt đầu một background process chỉ cần thêm kí tự **&** vào cuối lệnh.
+
+
+
+
 
