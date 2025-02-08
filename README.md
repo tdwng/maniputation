@@ -14,7 +14,7 @@
 
 ### b) Cấu trúc file '/' trong linux ( không biết diễn tả thế nào về cái thư mục gốc nên để tạm là '/' ):
 
-   Thư mục gốc trong linux là **root**, thường được hiển thị với duy nhất kí tự **/**, từ thư mục này nó sẽ phân nhánh thành nhiều thư mục con khác, thường sẽ như hình : ( Cùng là linux thì phần lớn sẽ không khác nhau mấy, dưới đây là của rasberry pi 4 model b, em xin phép không dùng ubuntu vm vì đợi nó khởi động em đã ăn xong 2 gói mì -.- )
+   Thư mục gốc trong linux là **root**, thường được hiển thị với duy nhất kí tự **/**, từ thư mục này nó sẽ phân nhánh thành nhiều thư mục con khác, thường sẽ như hình : ( Cùng là linux thì phần lớn sẽ không khác nhau mấy, dưới đây là của rasberry pi 4 model b, em xin phép không dùng ubuntu vm vì đợi nó start được thì em đã ăn xong 2 gói mì -.- )
 
    ![](image_1.png)
 
