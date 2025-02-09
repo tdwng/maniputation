@@ -1,5 +1,9 @@
 # Lý thuyết về linux
 
+## MỤC LỤC :
+
+   - [1. File và cấu trúc file trong linux](#1.-file-và-cấu-trúc-file-trong-linux)
+
 ## 1. File và cấu trúc file trong linux :
 
 ### a) File là gì? File được tổ chức như thế nào trong linux?
