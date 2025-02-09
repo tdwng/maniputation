@@ -233,7 +233,7 @@
 
    - Bizfly Cloud : https://bizflycloud.vn/tin-tuc/tim-hieu-ve-process-trong-linux-20210430234059408.htm
 
-   - Một số nguồn thông tin khác và một phần nhỏ có sự hỗ trợ từ ChatGPT.
+   - Một số nguồn thông tin khác và một phần **nhỏ**( khoảng 5% ) có sự hỗ trợ từ ChatGPT.
 
 # THANK U SO MUCH FOR READING MY WU! 
 
