@@ -102,8 +102,34 @@
 
    Có thể dừng / tắt process bằng các lệnh như **kill < PID >**, nếu không được, try **kill -s 9 < PID >**; hoặc có thể tắt toàn bộ các tiến trình có một loại tên giống nhau bằng cách dùng lệnh **killall -s 9 < target name >** hoặc **pkill -s 9 < target name >** :v
 
+## 3. User và group trong linux :
 
+   - **User** và **group**, tiếng Anh lần lượt có nghĩa là **người dùng** và **nhóm**. 
 
+   - Trong hệ thống Linux, **user** là tài khoản cá nhân với tên và mật khẩu đăng nhập riêng biệt, được chia thành 2 loại là **super user** và **regular user**. Mỗi user cũng được định danh riêng bằng **UID** ( Tài liệu tham khảo : https://vietnix.vn/uid-la-gi/#:~:text=UID%20l%C3%A0%20m%E1%BB%99t%20d%C3%A3y%20s%E1%BB%91,d%C3%A2n%20m%C3%A0%20b%E1%BA%A1n%20%C4%91%C6%B0%E1%BB%A3c%20c%E1%BA%A5p. ).
 
+   - **Group** ( được định danh bằng **GID** ), như tên của nó, là tập hợp một hoặc nhiều user lại. Mỗi user luôn là thành viên của một **group** nào đó.
 
+   ### a) Quản lí user ( thêm, xóa, sửa mk ):
+
+   **Tạo user mới :**
+   ```bash
+   sudo adduser < tên user cần thêm >
+   ```
+
+   **Xóa một user :**
+   ```bash
+   sudo deluser < tên user cần xóa >
+   ```
+
+   **Đổi mật khẩu :**
+   ```bash 
+   passwd < username >
+   ```
+
+   Dưới đây là mẫu thực hành :
+
+   ![](test_adduser.png)
+
+   ![](test_deluser.png)
 
