@@ -2,13 +2,13 @@
 
 ## MỤC LỤC :
 
-   - [1. File và cấu trúc file trong Linux](#1-file-va-cau-truc-file-trong-linux)
+   - [1. File và cấu trúc file trong Linux](#1-file-và-cấu-trúc-file-trong-linux)
 
-   - [2. Tiến trình của chương trình trên linux ](#2-tien-trinh-cua-chuong-trinh-tren-linux)
+   - [2. Tiến trình của chương trình trên linux ](#2-tiến-trình-của-chương-trình-trên-linux)
 
-   - [3. User và group trong Linux ](#3-user-va-group-trong-linux)
+   - [3. User và group trong Linux ](#3-user-và-group-trong-linux)
 
-   - [4. Phân quyền trong hệ thống Linux ](#4-phan-quyen-trong-he-thong-linux)
+   - [4. Phân quyền trong hệ thống Linux ](#4-phân-quyền-trong-hệ-thống-linux)
 
 ## 1. File và cấu trúc file trong linux 
 
