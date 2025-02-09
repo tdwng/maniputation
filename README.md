@@ -172,7 +172,7 @@
 
    *Ví dụ với hình sau :*
 
-   ![Ví dụ về quyền trong ](permission.png)
+   ![Ví dụ về quyền trong Linux ](permission.png)
 
    *Có thể thấy đây là một file không có đuôi, tên là* ***haha***, *được tạo vào 18:40 Feb 9, bằng user có tên là* ***linux***, *nằm trong group* ***linux***.*File có kích thước là* ***0 byte***, *có số hard link là* ***1***.
 
