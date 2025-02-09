@@ -2,7 +2,13 @@
 
 ## MỤC LỤC :
 
-   - [1. File và cấu trúc file trong linux](#1.-file-và-cấu-trúc-file-trong-linux)
+   - [1. File và cấu trúc file trong Linux](#1-file-và-cấu-trúc-file-trong-linux)
+
+   - [2. Process trong Linux ](#2-tiến-trình-của-chương-trình-trên-linux)
+
+   - [3. User & Group trong Linux ](#3-user-và-group-trong-linux)
+
+   - [4. Permission trong hệ thống Linux ](#4-phân-quyền-trong-hệ-thống-linux)
 
 ## 1. File và cấu trúc file trong linux :
 
@@ -219,3 +225,35 @@
 
    - Đây là quyền quan trọng, vậy nên hạn chế sử dụng khi ko biết rõ file hoặc thư mục có gây hại cho hệ thôgs hay không.
 
+## Các nguồn tham khảo :
+
+   - Viblo : https://viblo.asia/p/phan-quyen-trong-linux-yMnKMbDNZ7P
+
+   - Wikipedia : https://vi.wikipedia.org
+
+   - Bizfly Cloud : https://bizflycloud.vn/tin-tuc/tim-hieu-ve-process-trong-linux-20210430234059408.htm
+
+   - Một số nguồn thông tin khác và một phần nhỏ có sự hỗ trợ từ ChatGPT.
+
+## THANK U SO MUCH FOR READING MY WU! THIS IS THE END!
+
+
+
+
+
+### THIS TIME I HAVE A GIFT FOR SOMEONE FROM VIETNAM, IF YOU'RE EHC's MEMBER, PLEASE DON'T TRANSLATE THIS CODE :
+
+### ...- .--.- / .... .--.- -.-- / .-.. .---. / -..- .---. / ..... ----- ----- -.- / -. --. .- -.-- / --.- ..- .- / -- -... / ----- ----. ....- .---- ----. ---.. ....- .---- -.... --... / -. # ..- / -... # -. / -.- .... ---. -. --. / -- ..- # -. / ..--- / .... ---. -. / -.. .--.- .. / .--. .... .--.- - / -. # / - .-. --- -. --. / ...-- ----- .--. / -. # .- 
+
+```
+   ____
+  /    \          
+ /      \_________________________________
+|       /                             /   \
+ \_ _ _/                             |   __|
+ /     \                             |     |
+|       \_____________________________\___/
+ \      /                             
+  \____/ 
+
+```
