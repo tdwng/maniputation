@@ -10,7 +10,7 @@
 
    - [4. Phân quyền trong hệ thống Linux ](#4-phan-quyen-trong-he-thong-linux)
 
-## 1. File và cấu trúc file trong linux :
+## 1. File và cấu trúc file trong linux 
 
 ### a) File là gì? File được tổ chức như thế nào trong linux?
 
@@ -64,7 +64,7 @@
 
    - Trên hình còn có một số thư mục như **/lost+found**, **/sys**,... các thư viện này phục vụ mục đích khác nhau, như **/lost+found** check lại thiết bị khi ăn crash, check lỗi tập tin ; **/sys** chứa thông tin phần cứng, giao tiếp kernel,... ( Đoạn này lấy từ ChatGPT )
 
-## 2. Tiến trình của chương trình trên linux :
+## 2. Tiến trình của chương trình trên linux 
 
 ### a) Tiến trình ( process ) là gì? 
 
@@ -114,7 +114,7 @@
 
    Có thể dừng / tắt process bằng các lệnh như **kill < PID >**, nếu không được, try **kill -s 9 < PID >**; hoặc có thể tắt toàn bộ các tiến trình có một loại tên giống nhau bằng cách dùng lệnh **killall -s 9 < target name >** hoặc **pkill -s 9 < target name >** :v
 
-## 3. User và group trong linux :
+## 3. User và group trong linux 
 
    - **User** và **group**, tiếng Anh lần lượt có nghĩa là **người dùng** và **nhóm**. 
 
@@ -166,7 +166,7 @@
    ```bash
    groups <tên user>
    ```
-## 4. Phân quyền trong hệ thống linux :
+## 4. Phân quyền trong hệ thống linux 
    
 ### a) Hệ thống linux phân quyền như thế nào :
 
