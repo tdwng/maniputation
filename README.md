@@ -121,7 +121,7 @@
 
    **Xóa một user :**
    ```bash
-   sudo deluser < tên user cần xóa >
+   sudo deluser --remove-home < tên user cần xóa >
    ```
 
    **Đổi mật khẩu :**
@@ -156,3 +156,24 @@
    ```bash
    groups <tên user>
    ```
+## 4. Phân quyền trong hệ thống linux :
+   
+### a) Hệ thống linux phân quyền như thế nào :
+
+   - Linux dùng hệ thống phân quyền chia làm 3 loại, lần lượt gồm có **chủ sở hữu** ( **owner** ), **group** và **những người khác** ( **other** ).
+
+   - Linux chia quyền để xác định ai có quyền **read**(**r**),**write**(**w**) và **execute**(**x**).
+
+### b) Xem, sửa quyền của file :
+
+   - Bằng lệnh **ls -la < file >** ta có thể xem quyền của một file bất kì. 
+
+   - Với file, dòng hiển thị quyền sẽ bắt đầu với kí tự **-**, còn với thư mục nó sẽ là **d**.
+
+   *Ví dụ với hình sau :*
+
+   ![](permission.png)
+
+   *Có thể thấy đây là một file không có đuôi, tên là* ***haha***, *được tạo vào 18:40 Feb 9, bằng user có tên là* ***linux***, *nằm trong group* ***linux***.
+
+   
