@@ -108,7 +108,7 @@
 
    - Trong hệ thống Linux, **user** là tài khoản cá nhân với tên và mật khẩu đăng nhập riêng biệt, được chia thành 2 loại là **super user** và **regular user**. Mỗi user cũng được định danh riêng bằng **UID** ( Tài liệu tham khảo : https://vietnix.vn/uid-la-gi/#:~:text=UID%20l%C3%A0%20m%E1%BB%99t%20d%C3%A3y%20s%E1%BB%91,d%C3%A2n%20m%C3%A0%20b%E1%BA%A1n%20%C4%91%C6%B0%E1%BB%A3c%20c%E1%BA%A5p. ).
 
-   - **Group** ( được định danh bằng **GID** ), như tên của nó, là tập hợp một hoặc nhiều user lại. Mỗi user luôn là thành viên của một **group** nào đó.
+   - **Group** ( được định danh bằng **GID** ), như tên của nó, là tập hợp một hoặc nhiều **user** lại. Mỗi **user** luôn là thành viên của một **group** nào đó.
 
    ### a) Quản lí user ( thêm, xóa, sửa mk ):
 
@@ -133,3 +133,25 @@
 
    ![](test_deluser.png)
 
+   ### b) Quản lí group :
+
+   **Tạo group mới :**
+   ```bash
+   sudo groupadd <tên group>
+   ```
+
+   **Xóa một group :**
+   ```bash
+   sudo groupdel <tên group>
+   ```
+
+   **Thêm user vào group :**
+   ```bash
+   sudo usermod -a -G <tên group> <tên user>
+   ```
+
+   **Kiểm tra user ở nhóm nào :**
+   ```bash
+   groups <tên user>
+   ```
+   
