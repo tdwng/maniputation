@@ -164,11 +164,11 @@
 
    - Linux chia quyền để xác định ai có quyền **read**(**r**),**write**(**w**) và **execute**(**x**).
 
-### b) Xem, sửa quyền của file :
+### b) Xem, sửa quyền :
 
-   - Bằng lệnh **ls -la < file >** ta có thể xem quyền của một file bất kì. 
+   - Bằng lệnh **ls -la < file >** ta có thể xem quyền của một file/dir bất kì. 
 
-   - Với file, dòng hiển thị quyền sẽ bắt đầu với kí tự **-**, còn với thư mục nó sẽ là **d**.
+   - Với file, dòng hiển thị quyền sẽ bắt đầu với kí tự **-**, còn với thư mục ( directory ) nó sẽ là **d**.
 
    *Ví dụ với hình sau :*
 
@@ -176,6 +176,42 @@
 
    *Có thể thấy đây là một file không có đuôi, tên là* ***haha***, *được tạo vào 18:40 Feb 9, bằng user có tên là* ***linux***, *nằm trong group* ***linux***. *File có kích thước là* ***0 byte***, *có số hard link là* ***1***.
 
-   - 
+   - Mỗi quyền trong linux đều có một giá trị số riêng. Giá trị của **r**, **w**, **x**, **ko có quyền** lần lượt là **4**, **2**, **1**, **0**. Mỗi nhóm quyền ( bao gồm Owner - Group - Other ) sẽ có tổng điểm của cả 3 loại quyền. Lấy ví dụ, với ảnh trên, ta có **644** là tổng điểm của file **haha**. 
 
+
+   - Ảnh dưới sẽ minh họa cụ thể hơn về việc thay đổi quyền bằng lệnh **chmod** :
+
+   ![](thay_doi_perm.png)
+
+   - Ta cũng có thể chỉ cấp quyền thực thi cho file bằng lệnh :
+   ```bash
+   sudo chmod +x <file>
+   ```
+### c) Đổi chủ sở hữu và group của file bằng *chown* :
+
+   *Để dễ nhớ thì* ***chgrp*** *là viết tắt của* ***change group***, ***chown*** *là viết tắt của* ***change owner***.
+
+   - Đổi chủ sở hữu file :
+   ```bash
+   chown <tên user> <filename>
+   ```
+   - Đổi nhóm : 
+   ```bash
+   chgrp <group mới> <filename> 
+   ```
+   - Đổi chủ sở hữu lẫn nhóm :
+   ```bash 
+   chown <tên user>:<nhóm> <filename>
+   ```
+
+   - Đổi nhóm của một thư mục và tất cả ND bên trong thư mục đó :
+   ```bash
+   chown -R <tên nhóm cần đổi thành> <thư mục cần đổi nhóm>/
+   ```
+
+### d) **SUDO** ( Super user do/ substitute user ) và **ROOT** :
+
+   - Có những quyền quan trọng yêu cầu quyền **root** mới thực thi hoặc thay đổi được. Ta có thể cung cấp quyền thực thi bằng cách dùng **sudo** trước lệnh hoặc cấp quyền **execute** cho file.
+
+   - Đây là quyền quan trọng, vậy nên hạn chế sử dụng khi ko biết rõ file hoặc thư mục có gây hại cho hệ thôgs hay không.
 
