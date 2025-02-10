@@ -1,5 +1,7 @@
 # Lý thuyết về linux
 
+*Trần Hải Đăng CTVBCM EHC*
+
 ## MỤC LỤC :
 
    - [1. File và cấu trúc file trong Linux](#1-file-và-cấu-trúc-file-trong-linux)
